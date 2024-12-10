@@ -1,4 +1,4 @@
-﻿using IdentityBase.Interfaces.Services;
+﻿using IdentityBase.Interfaces;
 using Microsoft.AspNetCore.Identity;
 
 namespace IdentityBase.Services;

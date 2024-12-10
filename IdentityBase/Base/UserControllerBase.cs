@@ -1,5 +1,5 @@
 ﻿using IdentityBase.Data.Contexts;
-using IdentityBase.Interfaces.Services;
+using IdentityBase.Interfaces;
 using IdentityBase.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
