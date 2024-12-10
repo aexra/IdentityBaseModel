@@ -1,4 +1,4 @@
-﻿using IdentityBaseModel.Interfaces.Services;
+﻿using IdentityBase.Interfaces.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -6,7 +6,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace IdentityBaseModel.Services;
+namespace IdentityBase.Services;
 public class TokenService<T> : ITokenService<T> where T : IdentityUser
 {
     private readonly IConfiguration _config;

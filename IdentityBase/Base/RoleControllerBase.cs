@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace IdentityBaseModel.Base;
+namespace IdentityBase.Base;
 
 [Route("api/roles")]
 [ApiController]

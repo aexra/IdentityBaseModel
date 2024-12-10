@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace IdentityBaseModel.Data.Contexts;
+namespace IdentityBase.Data.Contexts;
 public class IdentityContext<T> : IdentityDbContext<T> where T : IdentityUser
 {
     public DbSet<T> Users { get; set; }

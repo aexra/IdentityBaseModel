@@ -1,11 +1,11 @@
-﻿using IdentityBaseModel.Data.Contexts;
-using IdentityBaseModel.Interfaces.Services;
-using IdentityBaseModel.Services;
+﻿using IdentityBase.Data.Contexts;
+using IdentityBase.Interfaces.Services;
+using IdentityBase.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace IdentityBaseModel.Base;
+namespace IdentityBase.Base;
 
 [ApiController]
 [Route("api/user")]

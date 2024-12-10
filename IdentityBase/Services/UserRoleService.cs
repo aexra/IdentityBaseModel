@@ -1,7 +1,7 @@
-﻿using IdentityBaseModel.Interfaces.Services;
+﻿using IdentityBase.Interfaces.Services;
 using Microsoft.AspNetCore.Identity;
 
-namespace IdentityBaseModel.Services;
+namespace IdentityBase.Services;
 public class UserRoleService<T> : IUserRoleService<T> where T : IdentityUser
 {
     private readonly UserManager<T> _userManager;

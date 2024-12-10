@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace IdentityBaseModel.Interfaces.Services;
+namespace IdentityBase.Interfaces.Services;
 public interface IUserRoleService<T> where T : IdentityUser
 {
     public Task AddToRolesAsync(T user, params string[] names);
