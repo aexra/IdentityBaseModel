@@ -11,13 +11,6 @@ namespace IdentityBase.Base;
 [Route("api/user")]
 public abstract class UserControllerBase<T> where T : IdentityUser
 {
-    protected readonly UserManager<T> _userManager;
-    protected readonly RoleManager<IdentityRole> _roleManager;
-    protected readonly SignInManager<T> _signInManager;
-    protected readonly ITokenService<T> _tokenService;
-    protected readonly UserRoleService<T> _userRoleService;
-    protected readonly IdentityContext<T> _identityContext;
-
     [HttpGet("me")]
     [Authorize]
     public abstract Task<IActionResult> Me();
